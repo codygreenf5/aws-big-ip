@@ -29,7 +29,7 @@
                          {
                              "servicePort": 8080,
                              "serverAddresses": [
-                                 "demo-app-a.cody-local
+                                 "demo-app-a.cody-local"
                              ]
                          }
                      ]
