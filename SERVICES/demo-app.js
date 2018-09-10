@@ -4,7 +4,7 @@
      "persist": true,
      "declaration": {
          "class": "ADC",
-         "schemaVersion": "3.0.0",
+         "schemaVersion": "3.3.0",
          "id": "example-declaration-01",
          "label": "Sample 1",
          "remark": "Simple HTTP application with round robin pool",
@@ -27,10 +27,12 @@
                      ],
                      "members": [
                          {
+                             "addressDiscovery": "fqdn",
+                             "addressRealm": "private",
+                             "autoPopulate": true,
                              "servicePort": 8080,
-                             "serverAddresses": [
-                                 "demo-app-a.cody-local"
-                             ]
+                             "hostname": "demo-app-a.cody-local"
+                             
                          }
                      ]
                  }
